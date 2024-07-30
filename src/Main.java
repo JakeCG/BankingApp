@@ -33,7 +33,6 @@ public class Main {
                     case 4-> withdraw(newBank, scan);
                     case 5 -> returnCustomerList(newBank);
                     default -> System.out.println("Please enter a valid choice.");
-
                 }
             }
             System.out.println("Exited gracefully.");
